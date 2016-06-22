@@ -4,8 +4,8 @@ This guide provides an introduction to some basic Azure Storage concepts.  In th
 *	Create an Azure storage account using the Azure portal.
 *	Describe the replication options such as LRS, ZRS and (RA-)GRS.
 *	Show how and where Virtual Machine disks are persisted in an Azure Storage Account.
-*	Demonstrate that within the virtual machine instance, the disks (VHDs) in the Azure Storage account look and feel just like a disk you�re used to working with in an on-premises or virtualized environment.
-*	Explain the temporary storage on D: and point out that it doesn�t exist in your Azure storage account.
+*	Demonstrate that within the virtual machine instance, the disks (VHDs) in the Azure Storage account look and feel just like a disk you're used to working with in an on-premises or virtualized environment.
+*	Explain the temporary storage on D: and point out that it doesn't exist in your Azure storage account.
 *	Show how to create a new simple volume.
 *	Show how to create a new striped volume.
 
@@ -47,16 +47,16 @@ Estimated time: 8 minutes
 1.	Sign-in to the Azure portal.
 2.	**NEW > Data + Storage + Storage Account**.
 3.	Enter a storage account name (remember lower case letters only).
-4.	Click on Pricing tier.
+4.	Click on **Pricing tier**.
 a.	Explain briefly the concept of LRS and GRS.  Then point out GRS w/RA.  Point out that Premium Storage is only for page blobs (Virtual Machine disks) and only available as LRS. Point out the ZRS is only for block blobs.
 5.	Click on Resource Group.
 a.	Select the resource group for the Virtual Machine and storage account created in the setup section.
-6.	Click on Diagnostics.  Explain this is where you can enable diagnostics for the storage account.
-7.	In the Storage account blade click the Create button.  Don�t wait for the account to be created.  Move on to the next step.
+6.	Click on **Diagnostics**.  Explain this is where you can enable diagnostics for the storage account.
+7.	In the Storage account blade click the **Create** button.  Don't wait for the account to be created.  Move on to the next step.
 
 <img src="./media/image003.jpg" align="center"/>
 
-8.	Go to the Resource group blade.
+8.	Go to the **Resource group** blade.
 9.	Click on the Virtual Machine in the Summary part.
 10.	In the Virtual Machine blade, click on Settings in the toolbar.
 11.	Click on Disks.
@@ -64,7 +64,7 @@ a.	Select the resource group for the Virtual Machine and storage account created
 
 <img src="./media/image004.jpg" align="center"/>
 
-13.	In the Blobs blade, click on the vhds container.
+13.	In the Blobs blade, click on the **vhds** container.
 14.	In the container blade, show the OS disk and 4 data disks you referenced earlier in the attached disks for the virtual machine.
 15.	Some things to point out are:
   a. The OS disk is 127 GB.
@@ -82,31 +82,31 @@ a.	Select the resource group for the Virtual Machine and storage account created
 
 <img src="./media/image007.jpg" align="center"/>
 
-20.	Go back to the Virtual Machine blade.
-21.	Click the Connect button in the toolbar.
+20.	Go back to the **Virtual Machine** blade.
+21.	Click the **Connect** button in the toolbar.
 22.	Sign-in to the Virtual Machine.
-23.	In the Server Manager Dashboard, click Tools > Computer Management.
-24.	Click on Disk Management.
-25.	In the Initialize Disk dialog, click OK to initialize the 4 data disks.
+23.	In the Server Manager Dashboard, click **Tools > Computer Management**.
+24.	Click on **Disk Management**.
+25.	In the **Initialize Disk** dialog, click **OK** to initialize the 4 data disks.
 
 <img src="./media/image008.jpg" align="center"/>
 
-26.	In the Disk Management window:
+26.	In the **Disk Management** window:
   a.	Show the C: (127 BG) which is the OS Disk backed in the Azure storage account.
   b.	Show the 4 data disks unallocated and ready to be configured.  Explain that you can create 4 separate volumes and logical drives for each, or you could stripe them and create one 4TB volume.
-  c.	Explain the D: drive.  This is backed by physical disks in the rack the virtual machine is running on.  Hence the reason it is temporary � it is not persisted (or backed) by your Azure Storage Account.  So only store temporary data here you are OK with losing.
-27.	Right-click on Disk 2 and select New Simple Volume.  Accept all the defaults to complete the wizard except for the following:
+  c.	Explain the D: drive.  This is backed by physical disks in the rack the virtual machine is running on.  Hence the reason it is temporary - it is not persisted (or backed) by your Azure Storage Account.  So only store temporary data here you are OK with losing.
+27.	Right-click on **Disk 2** and select **New Simple Volume**.  Accept all the defaults to complete the wizard except for the following:
   a.	Set the drive letter to F.
-  b.	Set the Volume label to �Data1�.
+  b.	Set the Volume label to "Data1".
 28.	Check the box to do a Quick Format.
 
 <img src="./media/image009.jpg" align="center"/>
 
-29.	Right-click on Disk 3 and select New Striped Volume.
+29.	Right-click on **Disk 3** and select **New Striped Volume**.
 30.	Accept all the defaults to complete the wizard except for the following:
 a.	Add Disk 4 and Disk 5 to the selected disks that will comprise the volume.
   b.	Set the drive letter to G.
-  c.	Set the Volume label to �Data2�.
+  c.	Set the Volume label to "Data2".
   d.	Check the box to do a Quick Format.
 
 <img src="./media/image010.jpg" align="center"/>
