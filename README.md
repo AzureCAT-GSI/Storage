@@ -26,14 +26,13 @@ Discuss Azure storage fundamentals and the importance of Storage choices
 * Discuss Storage Security (Access Keys/SAS, Encryption)
 * Guidance and Best Practices
 
-## Session Prerequisits
+## Session Prerequisites
 * Azure Subscriptions
 
 ## Azure Services Covered
-* Azure Storage
-* Standard Storage
-* Premium Storage
+* [[Azure Storage]] (https://azure.microsoft.com/en-us/documentation/services/storage/)
+* Standard StoragePremium Storage
 * Azure Blobs, Files, Queues, Tables, Disks
 
 ****
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or 
