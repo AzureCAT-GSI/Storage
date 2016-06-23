@@ -20,15 +20,15 @@ Estimated time: 5 minutes
 <img src="./media/image001.jpg" align="center"/>
 3. Open a CMD prompt window.
 4. Change directories to C:\Temp\Diskspd (or where you placed DiskSpd in Demo 1)
-5. Run the following commands:
-  a. `diskspd -c2G -b2K -w20 -F8 -o32 -d10 -h F:\testfile.dat`
-  b. While this is running explain the test you are performing.  The test is an IO benchmark test against drive F: (the single 1TB drive).  The test is performing a R/W test using the SQLIO benchmarking test tool.  This is a tool that the Azure Storage team recommends using to benchmark storage.  The test is running for 20 seconds (-s parameter).
-  c. When the test is done, point out the IOPS which should be ~500.  Reiterating that the IOPS per data disk is 500 IOPS.
+5. Run the following commands:<br>
+  a. `diskspd -c2G -b2K -w20 -F8 -o32 -d10 -h F:\testfile.dat`<br>
+  b. While this is running explain the test you are performing.  The test is an IO benchmark test against drive F: (the single 1TB drive).  The test is performing a R/W test using the SQLIO benchmarking test tool.  This is a tool that the Azure Storage team recommends using to benchmark storage. The test is running for 20 seconds (-s parameter).<br>
+  c. When the test is done, point out the IOPS which should be ~500.  Reiterating that the IOPS per data disk is 500 IOPS.<br>
   d. You need to point to the Total I/Os.<br>
 <img src="./media/image002.jpg" align="center"/>
-6. Run the following commands:
-  a. `diskspd -c2G -b2K -w20 -F8 -o32 -d10 -h G:\testfile.dat`
-  b. When the test is done, point out the IOPS which should be ~1500.  Reiterating that the IOPS per data disk is 500 IOPS.
+6. Run the following commands:<br>
+  a. `diskspd -c2G -b2K -w20 -F8 -o32 -d10 -h G:\testfile.dat`<br>
+  b. When the test is done, point out the IOPS which should be ~1500. Reiterating that the IOPS per data disk is 500 IOPS.<br>
   c. You need to point to the Total I/Os.<br>
 <img src="./media/image003.jpg" align="center"/>
  
