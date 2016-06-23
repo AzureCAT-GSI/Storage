@@ -6,16 +6,16 @@ This guide demonstrates the IOPS achieved on a single data disk as well as a str
 #### Pre-Requisites
 This section lists the pre-requisites required for this demonstration.
 * Azure subscription
-* Virtual Machine with 4 disk, configured as described in [Demo 1](https://github.com/GSIAzureCOE/Storage/blob/master/Demo%201%20-%20Storage%20Introduction/Readme.md)
+* Virtual Machine with 4 disk, configured as described in [Demo 1](../Demo%201%20-%20Storage%20Introduction/Readme.md)
 
 #### Setup
 Estimated time: None.  
-If you setup and presented [Demo 1](https://github.com/GSIAzureCOE/Storage/blob/master/Demo%201%20-%20Storage%20Introduction/Readme.md) then you are ready to present this demo. Otherwise, complete [Demo 1](https://github.com/GSIAzureCOE/Storage/blob/master/Demo%201%20-%20Storage%20Introduction/Readme.md) first.
+If you setup and presented [Demo 1](../Demo%201%20-%20Storage%20Introduction/Readme.md) then you are ready to present this demo. Otherwise, complete [Demo 1](../Demo%201%20-%20Storage%20Introduction/Readme.md) first.
 
 #### Demo Steps
 Estimated time: 5 minutes
 
-1. RDP into the virtual machine you used in [Demo 1](https://github.com/GSIAzureCOE/Storage/blob/master/Demo%201%20-%20Storage%20Introduction/Readme.md) then you are ready to present this demo. Otherwise, complete [Demo 1](https://github.com/GSIAzureCOE/Storage/blob/master/Demo%201%20-%20Storage%20Introduction/Readme.md).
+1. RDP into the virtual machine you used in [Demo 1](../Demo%201%20-%20Storage%20Introduction/Readme.md) then you are ready to present this demo. Otherwise, complete [Demo 1](../Demo%201%20-%20Storage%20Introduction/Readme.md).
 2. Revisit the Disk Management screen to show the two drive configurations ( F: and G: ). <br>
 <img src="./media/image001.jpg" align="center"/>
 3. Open a CMD prompt window.
