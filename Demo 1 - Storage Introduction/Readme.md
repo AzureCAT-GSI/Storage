@@ -18,20 +18,12 @@ Estimated time: 15 minutes
 
 1. Open a browser and navigate to <https://github.com/Azure/azure-quickstart-templates/tree/master/101-vm-multiple-data-disk>. This is an ARM template that will deploy a VM with 4 data disks attached to the VM.
 2. Click the Deploy to Azure button.
-3. In the Custom deployment blade, click on Parameters.  Fill in the parameters as shown.  Note: you will need to come up with a unique name of your own for the storage account name and DNS name. For the VM Size use Standard_A2 and for the data disk size enter 1023.
-
-
+3. In the Custom deployment blade, click on Parameters.  Fill in the parameters as shown.  Note: you will need to come up with a unique name of your own for the storage account name and DNS name. For the VM Size use Standard_A2 and for the data disk size enter 1023.<br>
 <img src="./media/image001.jpg" align="center"/>
-
-
 4. Click on Resource group and create a new resource group.
 5. Click Legal Terms and accept the terms.
-6. Click the Create button.
-
-
+6. Click the Create button.<br>
 <img src="./media/image002.jpg" align="center"/>
-
-
 7. RDP into the virtual machine. 
 8. Open a Command Prompt as an Administrator.
 9. Type the following commands to online the 4 data disks.<br>
