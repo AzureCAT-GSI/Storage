@@ -5,7 +5,6 @@ This guide demonstrates how to create and use Azure file shares.
 #### Pre-Requisites
 This section lists the pre-requisites required for this demonstration.
 * Azure subscription
-* Visual Studio 2013 or 2015
 * Ensure you have a created a storage account
 
 #### Setup
@@ -47,6 +46,6 @@ Estimated time: 5 minutes
 
 #### Clean Up
 To clean up this environment perform the following steps:
-1.	Delete the storage account you created.
-2.	Run `NET USE <DRIVE>: DELETE` to remove the mapping
+1. Delete the storage account you created. 
+2. Run `NET USE <DRIVE>: DELETE` to remove the mapping
 
