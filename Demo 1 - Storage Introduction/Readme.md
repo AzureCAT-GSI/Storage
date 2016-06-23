@@ -46,13 +46,13 @@ a.	Explain briefly the concept of LRS and GRS.  Then point out GRS w/RA.  Point 
 5.	Click on Resource Group.
 a.	Select the resource group for the Virtual Machine and storage account created in the setup section.
 6.	Click on **Diagnostics**.  Explain this is where you can enable diagnostics for the storage account.
-7.	In the Storage account blade click the **Create** button.  Don't wait for the account to be created.  Move on to the next step.
+7.	In the Storage account blade click the **Create** button.  Don't wait for the account to be created.  Move on to the next step.<br>
 <img src="./media/image003.jpg" align="center"/>
 8.	Go to the **Resource group** blade.
 9.	Click on the Virtual Machine in the Summary part.
 10.	In the Virtual Machine blade, click on Settings in the toolbar.
 11.	Click on Disks.
-12.	In the Disks blade show the OS Disk and the 4 data disks attached to the Virtual Machine.
+12.	In the Disks blade show the OS Disk and the 4 data disks attached to the Virtual Machine.<br>
 <img src="./media/image004.jpg" align="center"/>
 13.	In the Blobs blade, click on the **vhds** container.
 14.	In the container blade, show the OS disk and 4 data disks you referenced earlier in the attached disks for the virtual machine.
@@ -66,49 +66,32 @@ a.	Select the resource group for the Virtual Machine and storage account created
   a. The addressable URL for the disk.<br>
   b. The type of blob, which is Page Blob.  Reiterate that page blobs are optimized for random I/O and are used to back Virtual Machine disks.<br>
 18.	Go back to the vhds blade.
-19.	Click on one of the data disks.  Point out that these are simply page blobs as well.
+19.	Click on one of the data disks.  Point out that these are simply page blobs as well.<br>
 <img src="./media/image007.jpg" align="center"/>
 20.	Go back to the **Virtual Machine** blade.
 21.	Click the **Connect** button in the toolbar.
 22.	Sign-in to the Virtual Machine.
 23.	In the Server Manager Dashboard, click **Tools > Computer Management**.
 24.	Click on **Disk Management**.
-25.	In the **Initialize Disk** dialog, click **OK** to initialize the 4 data disks.
+25.	In the **Initialize Disk** dialog, click **OK** to initialize the 4 data disks.<br>
 <img src="./media/image008.jpg" align="center"/>
-26.	In the **Disk Management** window:
-
-
-  a.	Show the C: (127 BG) which is the OS Disk backed in the Azure storage account.
-  b.	Show the 4 data disks unallocated and ready to be configured.  Explain that you can create 4 separate volumes and logical drives for each, or you could stripe them and create one 4TB volume.
-  c.	Explain the D: drive.  This is backed by physical disks in the rack the virtual machine is running on.  Hence the reason it is temporary - it is not persisted (or backed) by your Azure Storage Account.  So only store temporary data here you are OK with losing.
-
-27. Right-click on **Disk 2** and select **New Simple Volume**.  Accept all the defaults to complete the wizard except for the following:
-
-
-  a.	Set the drive letter to F.
-  b.	Set the Volume label to "Data1".
-  
-
-28.	Check the box to do a Quick Format.
-
-
+26.	In the **Disk Management** window:<br>
+  a.	Show the C: (127 BG) which is the OS Disk backed in the Azure storage account.<br>
+  b.	Show the 4 data disks unallocated and ready to be configured.  Explain that you can create 4 separate volumes and logical drives for each, or you could stripe them and create one 4TB volume.<br>
+  c.	Explain the D: drive.  This is backed by physical disks in the rack the virtual machine is running on.  Hence the reason it is temporary - it is not persisted (or backed) by your Azure Storage Account.  So only store temporary data here you are OK with losing.<br>
+27. Right-click on **Disk 2** and select **New Simple Volume**.  Accept all the defaults to complete the wizard except for the following:<br>
+  a.	Set the drive letter to F.<br>
+  b.	Set the Volume label to "Data1".<br>
+28.	Check the box to do a Quick Format.<br>
 <img src="./media/image009.jpg" align="center"/>
-
-
 29.	Right-click on **Disk 3** and select **New Striped Volume**.
-30.	Accept all the defaults to complete the wizard except for the following:
+30.	Accept all the defaults to complete the wizard except for the following:<br>
   a. Add Disk 4 and Disk 5 to the selected disks that will comprise the volume.
-  b. Set the drive letter to G.
-  c. Set the Volume label to "Data2".
-  d. Check the box to do a Quick Format.
-
-
+  b. Set the drive letter to G.<br>
+  c. Set the Volume label to "Data2".<br>
+  d. Check the box to do a Quick Format.<br>
 <img src="./media/image010.jpg" align="center"/>
-
-
-31.	At the top of the Disk Management window show the two volumes.  Point out the sizes of 1TB and 3TB, Simple and Striped.
-
-
+31.	At the top of the Disk Management window show the two volumes.  Point out the sizes of 1TB and 3TB, Simple and Striped.<br>
 <img src="./media/image011.jpg" align="center"/>
 
 #### Clean Up
