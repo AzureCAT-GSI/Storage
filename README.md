@@ -18,6 +18,22 @@ Watch the [video TODO](https://gsiazurecoecontent.blob.core.windows.net/storage/
 [[demo script](./Demo%203%20-%20Storage%20Disk%20IOPS/Readme.md)]
 [[video TODO](https://gsiazurecoecontent.blob.core.windows.net/storage/todo.mp4)]
 
+## Session objectives
+Discuss Azure storage fundamentals and the importance of Storage choices
+* Understand Storage Replication (LRS --> RA-GRS)
+* Compare Standard Storage vs. Premium Storage
+* Overview of Azure Storage subsystem architecture
+* Discuss Storage Security (Access Keys/SAS, Encryption)
+* Guidance and Best Practices
+
+## Session Prerequisits
+* Azure Subscriptions
+
+## Azure Services Covered
+* Azure Storage
+* Standard Storage
+* Premium Storage
+* Azure Blobs, Files, Queues, Tables, Disks
 
 ****
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
