@@ -27,12 +27,12 @@ Discuss Azure storage fundamentals and the importance of Storage choices
 * Guidance and Best Practices
 
 ## Session Prerequisites
-* Azure Subscriptions
+* An Azure Subscription
 
 ## Azure Services Covered
 * [[Azure Storage, Blobs, Files, Queues, Tables, Disks]] (https://azure.microsoft.com/en-us/documentation/services/storage/)
 * [[Standard Storage and limits]] (https://azure.microsoft.com/en-us/documentation/articles/storage-scalability-targets/)
-* [[Premium Storage]] (https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/)* 
+* [[Premium Storage]] (https://azure.microsoft.com/en-us/documentation/articles/storage-premium-storage/)
 
 ****
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or 
