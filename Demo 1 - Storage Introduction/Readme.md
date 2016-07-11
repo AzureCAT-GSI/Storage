@@ -32,7 +32,7 @@ Estimated time: 15 minutes
   c. `SELECT DISK 2 <ENTER>`<br>
   d. `ATTRIBUTE DISK CLEAR READONLY <ENTER>`<br>
   e. `ONLINE DISK <ENTER>` Repeat steps b through d for disk 3, 4, and 5.<br>
-10.	Download DiskSpd from <https://gallery.technet.microsoft.com/DiskSpd-a-robust-storage-6cd2f223>. This is one of the tools the Azure Storage team recommends using to perform storage benchmark tests. Alternatively, the tool is provided as part of the demo script folder.
+10.	Download DiskSpd from <https://gallery.technet.microsoft.com/DiskSpd-a-robust-storage-6cd2f223>. This is one of the tools the Azure Storage team recommends using to perform storage benchmark tests. 
 11.	Unzip DiskSpd to C:\Temp\DiskSpd.
 
 #### Demo Steps
