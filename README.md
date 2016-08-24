@@ -6,9 +6,9 @@ Download the [PowerPoint](./Architecting%20Azure%20Storage.pptx?raw=1).
 The PowerPoint includes full speaker notes helping you understand the slides, and everything you need to deliver the session.
 
 ## Demos
-* Storage Introduction [[Demo script](./Demo%201%20-%20Storage%20Introduction/Readme.md)]
-* Storage FileShare [[Demo script](./Demo%202%20-%20Storage%20FileShare/Readme.md)]
-* Storage Disk IOPS [[Demo script](./Demo%203%20-%20Storage%20Disk%20IOPS/Readme.md)]
+* Storage Introduction [[Demo script](./Demo%201%20-%20Storage%20Introduction/Readme.md)] [[Demo video](http://azurecatgsicontent.blob.core.windows.net/storage/01-AzureStorageIntro.mp4)]
+* Storage FileShare [[Demo script](./Demo%202%20-%20Storage%20FileShare/Readme.md)] [[Demo video](http://azurecatgsicontent.blob.core.windows.net/storage/02-AzureFileShare.mp4)]
+* Storage Disk IOPS [[Demo script](./Demo%203%20-%20Storage%20Disk%20IOPS/Readme.md)] [[Demo video](http://azurecatgsicontent.blob.core.windows.net/storage/03-StorageScalabilityTarget.mp4)]
 
 ## Session objectives
 Discuss Azure storage fundamentals and the importance of Storage choices
