@@ -1,3 +1,7 @@
+> **Update:** Hello! As of 1 January 2017 this content is no longer being actively managed and updated. It is provided as-is and may contain information that has changed. Any Issues will be addressed on a best-effort basis. Please see [Azure.com](http://www.azure.com) for the latest guidance. Thank you for your understanding.
+
+---
+
 # Understanding Azure Storage and Solution Performance
 The Azure Storage system is a foundational building block for many services in the Azure Platform.  It has a touch point of about 85% of the services in the platform, meaning it's durability and scalability is proven. How is massive scalability achieved in this system?  Why do you care as a Solution Architect? What are some best practices for architecting your solutions so that durability and scalability are achieved?  These questions are addressed in this session.  You will learn internals of how the Azure Storage system works across all storage abstractions. As you progress through the session you will be introduced to capacity and constraints of the system. Lastly, you will learn some best practices on how to apply this knowledge in your architectures to deliver scalable and durable storage solutions.
 
